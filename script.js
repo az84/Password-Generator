@@ -1,27 +1,6 @@
 // Assignment Code
 var generateBtn = document.querySelector("#generate");
 
-
-// selection criteria
-// var type = [ 
-// 	{
-// 		charList: 'abcdefghijklmnopqrstuvwxyz',
-// 		input: 'IncludelowerCase'
-// 	}, 
-// 	{
-// 		charList: 'ABCDEFGHIJKLMNOPQRSTUVWXYZ',
-// 		input: 'IncludeupperCase'
-// 	},
-// 	{
-// 		charList: '0123456789',
-// 		input: 'IncludeNumbers'
-// 	},
-// 	{
-// 		charList: "@%+'!#$^?:,)(}{][~-_.",
-// 		input: 'IncludeSpecialCharacter'
-// 	}
-// ];
-
 // Write password to the #password input
 generateBtn.addEventListener("click", function() {
   var password = generatePassword();
@@ -29,31 +8,35 @@ generateBtn.addEventListener("click", function() {
   passwordText.textContent = password;
 });
 
-// Function to create pw based on length input and criteria selection
+// Function to create a password based on Lowercase letters
 function generateRandomLowercase() {
   var lowercase = "abcdefghijklmnopqrstvwxyz";
   var random = Math.floor(Math.random() * lowercase.length);
   return lowercase[random];
 }
 
+// Function to create password based on Uppercase letters
 function generateRandomUppercase() {
   var uppercase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
   var random = Math.floor(Math.random() * uppercase.length);
   return uppercase[random];
 }
 
+// Function to generate password based on Numbers
 function generateRandomNumber() {
   var number = "1234567890";
   var random = Math.floor(Math.random() * number.length);
   return number[random];
 }
 
+// Function to geenrate password based on Special characters
 function generateRandomSpecialCharacter() {
   var specialCharacter = "!\"#$%&'()*+,-./:;<=>?@[]^_`{|}~";
   var random = Math.floor(Math.random() * specialCharacter.length);
   return specialCharacter[random];
 }
 
+// Function to create error messages if length not specified, length requirements not met, or if no criteria specified
 function generatePassword() {
   var length = prompt("Please provide the length of the password");
   if (length < 8 || length > 128) {
