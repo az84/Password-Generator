@@ -14,7 +14,7 @@ For this project we were provided with an HTML and CSS codes and had to write a 
 ***
 ## Description
 
-- On the deployed link you will be presented with a series of propmts for a password criteria.
+- On the deployed link you will be presented with a series of prompts for a password criteria.
 - Password criteria includes a length of at least 8 characters and no more than 128 characters, Uppercase, Lowercase, Numbers and Special characters
 - When all the prompts are answered that matches the criteria, then a random password is generated.
 
