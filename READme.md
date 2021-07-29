@@ -11,6 +11,8 @@ For this project we are required to modify the starter code to create an applica
 
 **Deployed Link:** https://az84.github.io/Password-Generator/
 
+![images](/Password-Generator\03-javascript-homework-demo.png)
+
 ***
 ## Description
 

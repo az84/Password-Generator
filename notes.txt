@@ -1,0 +1,13 @@
+// function that generate random lower case
+// function that generate random uppercasse
+// function that generate random number
+// function that generate random special character
+
+// ask questions about the criteria
+// ask lenght for the password
+
+// loop over the length also execute each criteria
+// a random string; 
+// we strip extra characters and keep the stirng length to the input character
+
+// display the value.
