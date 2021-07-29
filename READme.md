@@ -11,6 +11,9 @@ For this project we were provided with an HTML and CSS codes and had to write a 
 
 **Deployed Link:** https://az84.github.io/Password-Generator/
 
+
+![images](/Password-Generator\03-javascript-homework-demo.png)
+
 ***
 ## Description
 
